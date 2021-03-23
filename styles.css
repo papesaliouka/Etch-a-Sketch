@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(16, minmax(25px, 1fr));
+    grid-template-rows: repeat(16, minmax(25px, 1fr));
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 61px 5px;
+}
+
+.pad{
+    border: 1px solid red;
+}
+
+.pad:hover{
+    background-color: black;
+}
+
+.pad-back{
+    background-color: black;
+}
