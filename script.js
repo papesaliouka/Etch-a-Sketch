@@ -1,6 +1,7 @@
 const container = document.getElementById('container');
 const resetBtn = document.getElementById('reset');
 const prompte = document.getElementById('prompt');
+const body = document.querySelector('body');
 
 
 function createDiv() {
@@ -20,10 +21,8 @@ function counter (count=16){
         createDiv();
     }   
 }
+
 counter();
 
-prompte.addEventListener('click', ()=>{
-    console.log('Iiii');
-   let size= prompt('Enter a size');
-   counter(size);
-})
+
+
