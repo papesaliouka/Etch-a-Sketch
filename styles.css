@@ -5,15 +5,15 @@ body{
     align-items: center;
 }
 
-#container{
-    width: auto;
-    height: auto;
+.container{
+    width: 500px;
+    height: 500px;
     display: grid;
-    grid-template-columns: repeat(16, minmax(25px, 1fr));
-    grid-template-rows: repeat(16, minmax(25px, 1fr));
+    grid-template-columns: 4;
+    grid-template-rows: 4;
     border: 5px solid black;
     border-radius: 5px;
-    margin: 61px 5px;
+    margin-top: 10px;
 }
 
 .pad{
@@ -26,4 +26,17 @@ body{
 
 .pad-back{
     background-color: black;
+}
+
+
+button{
+    padding: 10px;
+}
+
+.pad-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 }
